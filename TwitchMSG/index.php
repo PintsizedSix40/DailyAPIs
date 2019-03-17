@@ -12,7 +12,7 @@ $msg = $_GET['msg'];
 //Define variables needed to signin
 $pass = ''; //oauth from twitchapps.com/tmi. Looks something like oauth:jhfhsjguu768yshjgh
 $nick = ''; //the bot's username
-$channel = '#'+''; //the channel to be connected to, starting with a #. MUST BE LOWERCASED!!
+$channel = '#'.''; //the channel to be connected to, starting with a #. MUST BE LOWERCASED!!
 
 //Open bot socket (connects to twitch's chat server)
 $sock = fsockopen('irc.chat.twitch.tv' /* Twitch's Chat Server */, 6667 /* Port of server */)
